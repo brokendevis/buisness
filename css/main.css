@@ -1,0 +1,142 @@
+/* ---------- Общие стили ------------- */
+
+.container {
+    background: #FEFBF1;
+}
+.content {
+    width: 1280px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 400px;
+    text-align: center;
+}
+.heading {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.col {
+    display: inline-block;
+    width: 33,333%;
+}
+.main-col {
+    margin-bottom: 60px;
+}
+
+/* ------------ Header ------------ */
+
+
+.main-menu {
+    text-align: center;
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+.item-menu {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    margin-right: 60px;
+}
+.item-menu a {
+    color: #703412;
+    padding: 12px;
+    border-radius: 5px;
+}
+.item-menu a:hover {
+    color: #fff;
+    background-color: #b84503;
+    transition: 0.2s;
+}
+.item-menu:last-child {
+    margin-right: 0;
+}
+
+
+/* ---------- Main ---------- */
+
+.main-text {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    color: #703412;
+    margin-bottom: 100px;
+}
+.main-text-1 {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    color: #703412;
+    line-height: 60px;
+    margin-bottom: 200px;
+    padding-bottom: 150px;
+}
+.header-card {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #703412;
+    padding-left: 34px;
+    padding-bottom: 12px;
+    line-height: 30px;
+}
+.text-card {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left: 34px;
+}
+.card-item {
+    height: 100px;
+    overflow: hidden;
+}
+
+
+/*------------- Footer ------------- */
+
+footer {
+    background: #084935;
+    color: white;
+}
+footer a {
+    color: white;
+}
+footer a:hover {
+    color: #b84503;
+    transition: 0.2s;
+}
+footer .heading {
+    padding-top: 150px;
+}
+.footer-col {
+    display: inline-block;
+    width: 24%;
+    height: 100px;
+    overflow: hidden;
+    padding-bottom: 150px;
+    line-height: 28px;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+}
+footer .main-text-1 {
+    color: white;
+    margin: 0;
+    line-height: 45px;
+}
+.footer-border {
+    border-bottom: 1px solid #FFFFFF29;
+}
+.copy {
+    padding: 30px 0 30px 0;
+}
